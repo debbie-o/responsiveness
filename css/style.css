@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,nav,main,section{
+    display: block;
+}
+body{
+    width:1200px;
+    margin: auto;
+    background-color:#ffffff ;
+    font-family: sans-serif;
+}
+
+.logo{
+    display: flex;
+}
+.logo-img{
+    margin-top: 7px;
+}
+.p-header{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+nav ul li{
+    float:right;
+}
+.ul{
+    margin-top:-110px;
+    background-color:#f9faff;
+    width: 870px;
+    height: 650px;
+    margin-left: 460px;
+    border-radius: 45px;
+}
+ul{
+     margin-right: 170px;
+}
+li{
+    list-style-type: none;
+    padding: 24px;
+    margin-top: 55px;
+}
+a{
+    text-decoration: none;
+}
+.banner-sec{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.girl-img{
+    border-radius: 15px;
+    position: relative;
+    top: -590px;
+    margin-right: 40px;
+}
+.main-text{
+    margin-top: -590px;
+}
+.main-text > h1{
+    font-size: 55px;
+    line-height: 55px;
+}
+.main-text > p{
+    line-height: 23px;
+    margin-top: 40px;
+}
+.main-button{
+    margin-top: 40px;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    background-color: #2b5fff;
+    border-radius: 25px;
+}
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -410px;
+}
+.first-sec > img{
+        filter:grayscale(100%) ;
+}
+.tripadvisor,.servicenow{
+    margin-top: -70px;
+}
+.amazon{
+    margin-top: -19px;
+}
+.microsoft{
+    margin-top: -35px;
+}
+.second-sec{
+    text-align: center;
+    margin-top: 60px;
+    line-height: 54px;
+}
+.second-sec > h2{
+    font-size: 40px;
+
+}
+.second-sec > p{
+    font-size: 19px;
+}
+.last-sec{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    margin-top: 20px;
+}
+.last-sec > div{
+    background-color:#f9faff;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.last-sec img{
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.last-sec h3{
+    margin-top: 30px;
+    font-size: 24px;
+    margin-left:30px ;
+
+}
+.last-sec p{
+    margin-top:25px ;
+    margin-left: 30px;
+    line-height: 26px;
+}
