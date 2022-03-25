@@ -9,7 +9,7 @@ header,nav,main,section{
 body{
     width:1200px;
     margin: auto;
-    background-color:#ffffff ;
+    background-color:#fffff;
     font-family: sans-serif;
 }
 
@@ -73,7 +73,7 @@ a{
     color: white;
     padding: 20px;
     width: 200px;
-    background-color: #2b5fff;
+    background-color:#2b5ffd ;
     border-radius: 25px;
 }
 .first-sec{
