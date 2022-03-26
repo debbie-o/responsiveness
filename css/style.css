@@ -9,7 +9,7 @@ header,nav,main,section{
 body{
     width:1200px;
     margin: auto;
-    background-color:#fffff;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -132,4 +132,82 @@ a{
     margin-top:25px ;
     margin-left: 30px;
     line-height: 26px;
+}
+
+@media (max-width: 576px) {
+    body{
+        background-color:white;
+        width: 500px;
+        margin: auto;
+    }
+    .p-header{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .logo-img{
+        width: 40px;
+    }
+    .ul{
+        margin-top:-30px;
+        margin-left: -326px;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    li{
+        padding: 7px;
+        background-color:#f9faff ;
+        height: 25px;
+
+    }
+    .banner-sec{
+        flex-direction: column;
+    }
+    .girl-img{
+        width: 340px;
+        margin-top: 660px;
+        margin-left: 20px;
+    }
+    .main-text{
+        margin-top: -670px;
+        margin-left: 24px;
+    }
+    .main-text > h1{
+        font-size: 35px;
+        line-height:35px;
+    }
+    .main-text > p{
+        font-size: 0.9rem;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+    .main-button{
+        color: white;
+        padding: 15px;
+        width: 160px;
+        background-color:#2b5ffd ;
+        border-radius: 20px;
+    }
+    .first-sec > img{
+        display: none;
+    }
+    .second-sec{
+        text-align: center;
+        margin-top: -120px; 
+        line-height: 34px;
+        margin-left: -120px;
+    }
+    .second-sec > h2{
+        font-size: 17px;
+    
+    }
+    .second-sec > p{
+        font-size: 12px;
+    }
+    .last-sec{
+        display: flex;
+        flex-direction: column;
+        margin-top:20px;
+        height: 1000px;
+        margin-left: 20px;
+    }
 }
